@@ -1,13 +1,12 @@
 
 .cont{
   width: 100%;
-  background-image:url(images/bg-image.jpg); 
+  background-color: rgb(71, 54, 54); 
   background-position: center;
   background-size: cover;
   padding-left: 5%;
   padding-right: 5%;
   box-sizing: border-box;
-  box-shadow: 0px 0px 0px 4000px rgba(152, 142, 142, 0.5) inset;
   position: absolute;
   min-height: 100%;
   color: white;
@@ -38,7 +37,7 @@ align-content:center
 }
 .logo {
   width:10%;
-  height: 80%;
+  height: 20%;
   cursor: pointer;
 }
 nav ul li{
