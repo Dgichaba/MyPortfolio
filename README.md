@@ -1,10 +1,10 @@
 # My Portfolio
 #### Authored By : **Dorothy Gichaba**
 ## Description
-This repository contains my personal web portfolio which was created to showcase my work as a developer.
+This repository contains my personal web portfolio which was created while learining HTML and CSS in Moringa Schoold software engineering track..
 ## Setup/Installation Requirements
 * Visual Studio Code
-* Git
+* Git & github
 * Chrome browser
 ## Technologies Used
 * HTML
