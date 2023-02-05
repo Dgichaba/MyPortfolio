@@ -13,7 +13,7 @@
             <img src="images/logo.png" alt="logo" id="logo"> 
             <nav>
                 <ul>
-                    <li><a href="#index">Home</a></li>
+                    <li><a href="#home">Home</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
@@ -46,32 +46,96 @@
                 </div> 
                 <div class="col-md-6">
                     <img src="images/my_image.png" alt="My Image" id="myImage">
-                </div>      
-    
-        </div>
+                </div>     
+            </div>
+
         <div class="projects" id="projects">
-            <h2>My Projects</h2>
-            <p>Please find below links to projects I have done.</p>
-            <ol>
-                <li><a href="https://github.com/Dgichaba/Cookie-Recipe"><strong><em>Cookie Recipe</em></strong></em></a></li>
-                This was a project I did as I was learning HTML and CSS. I did a cookie recipe and I was able to learn how to use several tags including ol and ul.
-                <p> Languages I used include:</p>
-                <ol>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                </ol>
-                <li><a href="https://github.com/Dgichaba/DjangoGirls"><strong><em>DjangoGirls</em></strong></a></li>
-                I did this project while learning python-django framework using DjangoFirls tutorial. I used python language for the project. 
-        </div>
+            <h2>Projects</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="box">
+                            <p>Cookie Recipe</p>
+                                <p>I did this project while learning how to list items in Html on Canvas. It involved cloning a project on gitgub and making the necesarry changes.The project is written using HTML and CSS languages</p>
+                                <a href="https://github.com/Dgichaba/Cookie-Recipe">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="box">
+                            <p>Portfolio</p>
+                            <p>This project was to help me learn HTML and CSS. I was able to create my own simple portfolio that had different pages i.e home, about, projects and contact. The 
+                            languages I used are HTML and CSS.</p>
+                            <a href="https://github.com/Dgichaba/Portfolio.git">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="box">
+                            <p>DjangoGirls</p>
+                            <p>I did this project while learning python-django framework using DjangoFirls tutorial.
+                             I used python programming language for the project. It involved creating a blog site </p>
+                            <a href="https://github.com/Dgichaba/DjangoGirls">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="box">
+                                <p>Birthday Project</p>
+                                    <p>This project involved using html, css and javascript to create a simple application that is able to calculate the day of the week that someone was born and give them an akan name</p>
+                                    <a href="https://github.com/Dgichaba/Birthday_Project">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="box">
+                                <p>Delani-Studio</p>
+                                <p>This project was to help me learn javascript functions .It involved using a template and resources that were provided to create a website for delani studios.</p>
+                                <a href="https://github.com/Dgichaba/Delani-Studio">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="box">
+                                <p>Portfolio</p>
+                                <p>This is an updated version of portfolio. This project was to test my understanding of html and css. It was created using the two languages and javascript.   .</p>
+                                <a href="https://github.com/Dgichaba/MyPortfolio">View Project</a>
+                            </div>
+                        </div>
+                    </div>
         <div class="contact" id="contact">
             <h2>Contact Me</h2>
-            <p>Here is my contact information.Looking forward to hearing from you.</p>
-            <p><span class="important">Name:</span>Dorothy Gichaba<br> 
-                <span class="important">Pysical Address:</span>Nairobi Kenya<br>
-                <span class="important">Email:</span> dorothygichaba@gmail.com<br>
-                <span class="important">Phone Number:</span> (254) 714 612 920<br>
-            </p> 
-        </div>  
+            <p class="error" id="error"></p>
+            <p class="response" id="response"></p>
+            <form id="form1" onsubmit="return false">
+              <div class="contact-form">
+                <div class="row">
+                  <div class="col-4 pl-2 pb-2">
+                    <input type="text" class="form-control" id="name" placeholder="Name..." value="" required>
+                  </div>
+                  <div class="col-4 pl-2 pb-2">
+                    <input type="email" class="form-control" id="email" placeholder="Email..." value="" required>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-8">
+                    <textarea class="form-control" rows="8" id="message" placeholder="Your message here..." required></textarea>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-2 pb-2 pt-2">
+                    <button class="btn btn-primary" id= "submit" type="submit" onclick="sendMessage()">Submit</button>
+                  </div>
+                </div>
+              </div>
+            </form>          
+        </div> 
     </body>
 </html
 
