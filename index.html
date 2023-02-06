@@ -8,6 +8,7 @@
         <meta name="viewport" content="width=device-width,initial-scale=1">
     </head>
     <body>
+
         <!-- Top navigation bar -->
         <div class="navbar">
             <img src="images/logo.png" alt="logo" id="logo"> 
@@ -19,6 +20,8 @@
                 </ul>
             </nav>
         </div>
+
+        <!-- <home section> -->
         <div class="home" id="home">
             <div class="row">
                 <div class="col-md-6">
@@ -41,7 +44,6 @@
                         <li>Singing</li>
                         <li>Fitness</li>
                     </ol>   
-                
                     <a href="https://www.linkedin.com/in/dorothy-gichaba-bb04ab202//"class="btn btn-primary" id="button">LinkedIn Profile</a>
                 </div> 
                 <div class="col-md-6">
@@ -49,6 +51,7 @@
                 </div>     
             </div>
 
+        <!-- <projects section> -->
         <div class="projects" id="projects">
             <h2>Projects</h2>
             <div class="row">
@@ -109,20 +112,20 @@
                             </div>
                         </div>
                     </div>
+
+        <!-- <contact section> -->
         <div class="contact" id="contact">
             <h2>Contact Me</h2>
-            <p class="error" id="error"></p>
-            <p class="response" id="response"></p>
             <form id="form1" onsubmit="return false">
-              <div class="contact-form">
-                <div class="row">
-                  <div class="col-4 pl-2 pb-2">
-                    <input type="text" class="form-control" id="name" placeholder="Name..." value="" required>
-                  </div>
-                  <div class="col-4 pl-2 pb-2">
-                    <input type="email" class="form-control" id="email" placeholder="Email..." value="" required>
-                  </div>
-                </div>
+                <div class="contact-form">
+                    <div class="row">
+                        <div class="col-4 pl-2 pb-2">
+                            <input type="text" class="form-control" id="name" placeholder="Name..." value="" required>
+                         </div>
+                        <div class="col-4 pl-2 pb-2">
+                            <input type="email" class="form-control" id="email" placeholder="Email..." value="" required>
+                        </div>
+                    </div>
                 <div class="row">
                   <div class="col-8">
                     <textarea class="form-control" rows="8" id="message" placeholder="Your message here..." required></textarea>
@@ -133,7 +136,7 @@
                     <button class="btn btn-primary" id= "submit" type="submit" onclick="sendMessage()">Submit</button>
                   </div>
                 </div>
-              </div>
+            </div>
             </form>          
         </div> 
     </body>
