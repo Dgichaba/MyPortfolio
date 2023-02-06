@@ -119,31 +119,41 @@
             <p class="error" id="error"></p>
             <p class="response" id="response"></p>
             <form id="form1" onsubmit="return false">
-                <div class="contact-form">
-                    <div class="row">
-                        <div class="col-4 pl-2 pb-2">
-                            <input type="text" class="form-control" id="name" placeholder="Name..." value="" required>
-                         </div>
-                        <div class="col-4 pl-2 pb-2">
-                            <input type="email" class="form-control" id="email" placeholder="Email..." value="" required>
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="contact-form">
+                            <div class="row">
+                                <div class="col-4 pl-2 pb-2">
+                                    <input type="text" class="form-control" id="name" placeholder="Name..." value="" required>
+                                </div>
+                                <div class="col-4 pl-2 pb-2">
+                                    <input type="email" class="form-control" id="email" placeholder="Email..." value="" required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-8">
+                                    <textarea class="form-control" rows="8" id="message" placeholder="Your message here..." required></textarea>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-2 pb-2 pt-2">
+                                    <button class="btn btn-primary" id= "submit" type="submit" onclick="sendMessage()">Submit</button>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-8">
-                            <textarea class="form-control" rows="8" id="message" placeholder="Your message here..." required></textarea>
+                    <div class="col-md-4">
+                        <div class="contact-details">
+                            <h2>Contact Details</h3>
+                            <h3>Looking forward to hearing from you. I will respond as soon as possible</h3>
+                            <p>
+                                Name <br>Dorothy Gichaba<br>
+                                Email<br> dorothygichaba@gmail.com<br>
+                                Phone Number<br> (254) 714 612 920<br>
+                                Physical Location<br>
+                                Nairobi, Kenya
+                            </p>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-2 pb-2 pt-2">
-                            <button class="btn btn-primary" id= "submit" type="submit" onclick="sendMessage()">Submit</button>
-                        </div>
-                <div class="contact-details">
-                    <h3>My Contact Details</h3>
-                    <p><span class="important">Name: </span>Dorothy Gichaba<br> 
-                        <span class="important">Email: </span> dorothygichaba@gmail.com<br>
-                        <span class="important">Phone Number: </span> (254) 714 612 920<br>
-                    </p>
-                </div>
                     </div>
                 </div>
             </form>          
