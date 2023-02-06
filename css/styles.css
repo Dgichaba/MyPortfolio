@@ -96,6 +96,7 @@ padding-left: 100px
   width: 100%;
   margin-left: 50px;
   float:right
+  
 }
 .contact h2{
   font-family: 'Roboto', sans-serif;
@@ -147,6 +148,6 @@ padding-left: 100px
 }
 .contact-details h2{
   margin-top: -100px;
-  margin-left:50px;
+  margin-left:10px;
 }
 
