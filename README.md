@@ -13,6 +13,8 @@ This repository contains my personal web portfolio which was created while leari
 * Bootstrap
 ## Support and contact details
 If you run into any issue or have questions, ideas or concerns, kindly reach me though the contacts provided or feel free to make a contribution to the code.
+## Known Issues
+Mailing functionality has not been integrated yet but will be available in the future.
 ## Setup Instructions
 Clone the repository. Navigate to the folder and double click the index.html file to open the landing page in a browser then you can explore the portfolio sections.
 
